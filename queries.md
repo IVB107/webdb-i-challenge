@@ -5,6 +5,7 @@
 ## find all customers with postal code 1010. Returns 3 customers.
 
 ## find the phone number for the supplier with the id 11. Should be (010) 9984510.
+  select phone from suppliers where supplierid = 11
 
 ## list orders descending by the order date. The order with date 1997-02-12 should be at the top.
   select * from suppliers order by orderdate desc
